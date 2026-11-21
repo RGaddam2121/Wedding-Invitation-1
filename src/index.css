@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FFF8E9;
+    color: #3b2c26;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom golden border & ornamental effects */
+.gold-border {
+  border: 1px solid #C6A15B;
+  box-shadow: 0 0 10px rgba(198, 161, 91, 0.2);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #9E7E38 0%, #D4AF37 40%, #C6A15B 70%, #8A6D2A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.maroon-gradient-text {
+  background: linear-gradient(135deg, #781F35 0%, #521629 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Authentic Telugu Typography Support */
+.font-telugu {
+  font-family: 'Noto Sans Telugu', sans-serif;
+  line-height: 1.6;
+}
+
+/* Subtle background pattern */
+.bg-mandala {
+  background-image: radial-gradient(#C6A15B 0.75px, transparent 0.75px), radial-gradient(#C6A15B 0.75px, #FFF8E9 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.08;
+}
+
+/* Shimmer animation for golden elements */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-gold {
+  background: linear-gradient(90deg, #C6A15B 0%, #FFF4D2 50%, #C6A15B 100%);
+  background-size: 200% 100%;
+  animation: shimmer 4s infinite linear;
+}
