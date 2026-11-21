@@ -97,11 +97,19 @@ export const weddingData: WeddingConfig = {
       name: "Srinivas",
       teluguName: "శ్రీనివాస్",
       label: "Our Beloved Son",
+<<<<<<< HEAD
       father: "Sri Sreekara Narayana",
       mother: "Smt. Sreekara Lakshmi",
       photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
       about: "A compassionate tech enthusiast with a heart rooted in traditional Telugu values and a vision for the future.",
       familyDetails: "Grandson of Late Sri S. Ramulu & Late Smt. S. Rajamma",
+=======
+      father: "Sri Gaddam Narayana",
+      mother: "Smt. Gaddam Lakshmi",
+      photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+      about: "A compassionate tech enthusiast with a heart rooted in traditional Telugu values and a vision for the future.",
+      familyDetails: "Grandson of Late Sri G. Ramulu & Late Smt. G. Rajamma",
+>>>>>>> 992071a735f0e44fe6efc819400ab54260f8b215
     },
     bride: {
       name: "Pallavi",
@@ -232,6 +240,7 @@ export const weddingData: WeddingConfig = {
   ],
   family: {
     blessingsFrom: [
+<<<<<<< HEAD
       "Late Sri Sreekara Ramulu & Late Smt. Rajamma",
       "Late Sri K. Satyanarayana & Smt. Annapurna",
       "All Grandparents & Ancestors",
@@ -240,6 +249,16 @@ export const weddingData: WeddingConfig = {
     brideParents: "Smt. K. Sarojini & Sri K. Venkateswarlu",
     coInvitedBy: [
       "Smt. S. Madhavi & Sri S. Ramesh",
+=======
+      "Late Sri Gaddam Ramulu & Late Smt. Rajamma",
+      "Late Sri K. Satyanarayana & Smt. Annapurna",
+      "All Grandparents & Ancestors",
+    ],
+    groomParents: "Smt. Gaddam Lakshmi & Sri Gaddam Narayana",
+    brideParents: "Smt. K. Sarojini & Sri K. Venkateswarlu",
+    coInvitedBy: [
+      "Smt. G. Madhavi & Sri G. Ramesh",
+>>>>>>> 992071a735f0e44fe6efc819400ab54260f8b215
       "Smt. K. Bhavani & Sri K. Suresh",
       "Smt. T. Anitha & Sri T. Rajesh",
     ],

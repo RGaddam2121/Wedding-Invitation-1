@@ -62,7 +62,11 @@ export const FamilyInvitation: React.FC = () => {
               {family.groomParents}
             </h3>
             <p className="text-xs text-gray-600 mt-1 font-serif italic">
+<<<<<<< HEAD
               and all family members of Sreekara family
+=======
+              and all family members of Gaddam family
+>>>>>>> 992071a735f0e44fe6efc819400ab54260f8b215
             </p>
           </div>
 
